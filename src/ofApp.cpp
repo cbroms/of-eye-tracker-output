@@ -6,7 +6,7 @@ using namespace std;
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-	imageName = "1753842115-1";
+	imageName = "1842324128-3";
 	string path = "C:/Users/Christian Broms/Documents/NarrativeMaker/NarrativeMaker/bin/data/" + imageName + ".json";
 	
 	// load the data
@@ -20,7 +20,7 @@ void ofApp::setup(){
 	img.load("1.jpg");
 
 	// need to ensure the framerate is the same as when the recording was made
-	ofSetFrameRate(15);
+	ofSetFrameRate(30);
 }	
 
 //--------------------------------------------------------------
