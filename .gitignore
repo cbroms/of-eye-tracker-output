@@ -1,4 +1,5 @@
 /bin/data/output/*
+/bin/data/outputResized/*
 
 #########################
 # general patterns

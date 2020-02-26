@@ -19,8 +19,16 @@ class ofApp : public ofBaseApp{
 		float prevX = 0;
 		float prevY = 0;
 
-		int cropW = 500;
-		int cropH = 300;
+
+		float minCropW = 1000;
+		float minCropH = 600;
+
+		float maxCropW = 500;
+		float maxCropH = 300;
+
+		bool constellationViz = false;
+
+		list<glm::vec2> constPoints;
 
 		json data;
 
